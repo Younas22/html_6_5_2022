@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat&family=Roboto:ital,wght@0,500;1,300&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.main-header{
+	background:#91d2e6;
+}
+.main-section{
+	background:#5799eb;
+}
+.scope{
+	color:#faaaae;
+}
+span{
+	background:#53db78;
+}
