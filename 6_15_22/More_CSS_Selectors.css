@@ -1,0 +1,36 @@
+/* *{
+	color:red;
+} */
+
+
+
+header{
+	background-color:#0563fa;
+}
+section.my-article{
+	background-color:#d1f79c;
+}
+header p{
+	color:#fa050d;
+}
+li a{
+	color:#02f7f7;
+}
+/* section.my-article h2{
+	color:#ffab03; 
+} */
+section.my-article > h2{
+	color:#ffab03;
+}
+h2+p{
+	color:#ff05e2;
+}
+ul+p{
+	color:#1aff05;
+}
+header h1{
+	color:#b88da7;
+}
+main > h2{
+	color:#ed9791;
+}
