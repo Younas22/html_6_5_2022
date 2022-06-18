@@ -1,0 +1,14 @@
+/* inline style attribute > id selector > class selector > element selector */
+ h1{
+	 color:purple;
+ }
+h1.h1class{
+	 color:green;
+ }
+.heading{
+     color:magenta;	 
+ }
+ 
+/*  #h1id{
+	 color:red;
+ } */
