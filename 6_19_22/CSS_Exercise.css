@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lobster&family=Montserrat&family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+body{font-family: 'Poppins', sans-serif;
+}
+.container{
+	width:1400px;
+	margin:0px auto;
+}
+h1{
+	background:#f5877f;
+	text-align:center;
+	padding:15px 0px;
+}
+section.page-billy, section.page-lilly{
+	border:2px solid #f2a5a0;
+	padding:10px;
+}
+.page-billy{
+	margin-bottom:40px;
+}
+section h3{
+	text-transform:uppercase;
+	color:orange;
+}
