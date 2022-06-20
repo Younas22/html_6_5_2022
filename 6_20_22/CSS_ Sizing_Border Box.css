@@ -1,0 +1,19 @@
+hr{
+	width:500px;
+	margin-left:0px;
+	border:0.5px dashad black;
+}
+.box2{
+	box-sizing:border-box;
+	width:500px;
+	background:#eb5b92;
+	border:10px solid #fc035a;
+	padding:50px;
+	margin-bottom:10px;
+}
+.box1{
+	width:500px;
+	background:#eb5b92;
+	border:10px solid #fc035a;
+	padding:50px;
+}
