@@ -1,0 +1,22 @@
+.h1h{
+	text-decoration:none;
+}
+h1{
+	letter-spacing:4px;
+	font-size:46px;
+	text-decoration:underline wavy red;
+}
+h2{
+	text-decoration: overline #1b02fa;
+	letter-spacing:5px;
+}
+h3{
+text-decoration:line-through #f78e05;
+letter-spacing:6px;
+}
+p{
+	font-size: 20px;
+	line-height: 30px;
+	word-spacing: 8px;
+	letter-spacing: 2px;
+}
