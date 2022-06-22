@@ -1,0 +1,33 @@
+/* body :not(.fancy){
+	 color:blue;
+	 background-color:#ddd;
+ }
+ */
+/*  div:empty{
+	 background: gray;
+	 border: 2px solid red;
+	 height: 100px;
+	width: 100px;
+ } */
+/* :root{
+	 background:red;
+	color:white;
+ } */
+/* html{
+	
+	background:#333;
+	 color:tomato;
+} */
+body{
+	background:#333;
+	 color:tomato;
+}
+h1{
+	font-family: 'Courier', sans-serif;
+	font-weight:700;
+}
+p{
+	font-family: 'Courier', sans-serif;
+	font-weight:300;
+	/* color:yellow; */
+}
