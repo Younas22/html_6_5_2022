@@ -210,7 +210,7 @@ h1, h2, h3{
 	color:#fff;
 }
 .box-2{
-	background-color: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+	background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
 	color:#fff;
 }
 .box-wrapper::after{
@@ -413,4 +413,20 @@ h1, h2, h3{
 	outline:none;
 	border:none;
 	cursor:pointer;
+}
+
+/* ###################### MEDIA QUERIES ###################### */
+
+@media (max-width: 500px){
+	html{
+		/* font-size:8px; */
+		font-size:50%;
+	}
+
+.navbar .nav-item, .navbar .logo{
+	float:none;
+	display:block;
+	width:100%;
+	text-align:center;
+}
 }
