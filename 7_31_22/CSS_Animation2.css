@@ -1,0 +1,19 @@
+.box2{
+	width: 15px;
+	height: 10px;
+	background: blue;
+	animation-name: grow-width;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes grow-width{
+	from{
+		width: 0;
+		background: blue;
+	}
+	to{
+		width: 300px;
+		background: linear-gradient(red, yellow);
+	}
+}
