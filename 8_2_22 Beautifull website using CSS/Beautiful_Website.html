@@ -18,10 +18,10 @@
 					</div>
 					  <ul class="menu-items">
 					    <li><a href="#showcase">Home</a></li>
-					    <li><a href="#foodmenu">About</a></li>
+					    <li><a href="#about">About</a></li>
 					    <li><a href="#food">Category</a></li>
-					    <li><a href="#menu">Menu</a></li>
-					    <li><a href="#testimonial">Testimonial</a></li>
+					    <li><a href="#food-menu">Menu</a></li>
+					    <li><a href="#testimonials">Testimonial</a></li>
 					    <li><a href="#contact">Contact</a></li>
 					  </ul>
 					    <h1 class="logo"><img src="./img/logo1.png" alt="#"><h1>
@@ -34,7 +34,7 @@
 				    <a href="#food-menu" class="btn btn-primary">Menu</a>
 			  </div>
 			  </section>
-			    <section class="about">
+			    <section id="about">
 				  <div class="about-wrapper container">
 				     <div class="about-text">
 					    <p class="small">About Us</p>
@@ -46,7 +46,7 @@
 					 </div>
 				  </div>
 				</section>
-				  <section class="food">
+				  <section id="food">
 				    <h2>Types of food</h2>
 					  <div class="food-container container">
 					    <div class="food-type fruit">
@@ -92,16 +92,16 @@
 							</div>
 						  </div>
 						   <div class="food-menu-item">
-						     <div class="food-image">
-							   <img src="./img/food-menu2.jpg" alt="">
-							 </div>
-							   <div class="food-description">
-							    <h2 class="food-title">Food Menu Item 2</h2>
-							      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterat</p>
-							       <p class="food-price">price: &#8360;.350</p>
+							  <div class="food-image">
+							    <img src="./img/food-menu2.jpg" alt="">
 							   </div>
+							    <div class="food-description">
+							      <h2 class="food-title">Food Menu Item 2</h2>
+							        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterat </p>
+							          <p class="food-price">price: &#8360;.350</p>
+							    </div>
 						   </div>
-						   <div class="food-menu-item">
+						  <div class="food-menu-item">
 						     <div class="food-image">
 							   <img src="./img/food-menu3.jpg" alt="">
 							 </div>
@@ -112,34 +112,34 @@
 							   </div>
 						  </div>
 						   <div class="food-menu-item">
-						    <div class="food-image">
+						     <div class="food-image">
 							   <img src="./img/food-menu4.jpg" alt="">
-							</div>
-							<div class="food-description">
-							 <h2 class="food-title">Food Menu Item 4</h2>
-							 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterat</p>
-							 <p class="food-price">price: &#8360;.370</p>
-							</div>
-						  </div>
+							 </div>
+							   <div class="food-description">
+							    <h2 class="food-title">Food Menu Item 4</h2>
+							      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterat</p>
+							        <p class="food-price">price: &#8360;.370</p>
+							   </div>
+						   </div>
 						   <div class="food-menu-item">
 						    <div class="food-image">
 							   <img src="./img/food-menu5.jpg" alt="">
 							</div>
-							<div class="food-description">
-							 <h2 class="food-title">Food Menu Item 5</h2>
-							 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterat</p>
-							 <p class="food-price">price: &#8360;.400</p>
-							</div>
+							  <div class="food-description">
+							    <h2 class="food-title">Food Menu Item 5</h2>
+							      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterat</p>
+							        <p class="food-price">price: &#8360;.400</p>
+							  </div>
 						  </div>
 						   <div class="food-menu-item">
-						    <div class="food-image">
+						     <div class="food-image">
 							   <img src="./img/food-menu6.jpg" alt="">
-							</div>
-							<div class="food-description">
-							 <h2 class="food-title">Food Menu Item 6</h2>
-							 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterat</p>
-							 <p class="food-price">price: &#8360;.460</p>
-							</div>
+							 </div>
+							   <div class="food-description">
+							     <h2 class="food-title">Food Menu Item 6</h2>
+							       <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterat  </p>
+							         <p class="food-price">price: &#8360;.460</p>
+							   </div>
 						   </div>
 						</div>
 					</section>
@@ -190,5 +190,51 @@
 						  </div>
 						</div>
 					</section>
+					 <section id="contact">
+					   <div class="contact-container container">
+					     <div class="contact-image">
+						   <img src="./img/restraunt-image.jpg" alt="">
+						 </div>
+						    <div class="form-container">
+							  <h2>Contact Us</h2>
+							   <input type="text" name="" id="" placeholder="Name">
+							   <input type="email" name="" id="" placeholder="E-Mail">
+							    <textarea name="" id="" cols="30" rows="10" placeholder="Type your message here"></textarea>
+								 <a href="#" class="btn btn-primary">Submit</a>
+							</div>
+					   </div>
+					 </section>
+					   <footer id="footer">
+					     <h2>Restaurant Website &copy; all rights reserved.</h2>
+					   </footer>
+					   
+					   <!-- ############ for smoth scroling ############ -->
+					   
+					   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                        <script>
+                          $(document).ready(function(){
+                           // Add smooth scrolling to all links
+                             $("a").on('click', function(event) {
+                             // Make sure this.hash has a value before overriding default behavior
+                               if (this.hash !== "") {
+                                // Prevent default anchor click behavior
+                                  event.preventDefault();
+
+                                   // Store hash
+                                     var hash = this.hash;
+
+                                       // Using jQuery's animate() method to add smooth page scroll
+                                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                                          $('html, body').animate({
+                                              scrollTop: $(hash).offset().top
+                                                }, 800, function(){
+
+                                              // Add hash (#) to URL when done scrolling (default click behavior)
+                                                    window.location.hash = hash;
+                                                        });
+                                                     } // End if
+                                                        });
+                                                           });
+                        </script>
 		 </body>
 </html>
