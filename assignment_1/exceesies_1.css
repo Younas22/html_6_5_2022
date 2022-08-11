@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 600px;
+	height: 600px;
+	padding: 10px 10px;
+	margin: 100px auto;
+	display: grid;
+	grid-auto-rows: 70px;
+	grid-template-columns: repeat(3, 150px);
+	gap: 10px;
+}
+.element{
+	background: #fcf403;
+	color: #0d0d0d;
+	padding: 10px ;
+}
+.head1{
+	grid-column: 1 / 5;
+}
+.nav2{
+	grid-row: 2 / 8;
+}
+.article3{
+	grid-column: 2 / 4;
+	grid-row: 2 / 7;
+}
+.ads4{
+	grid-row: 2 / 7;
+}
+.footer5{
+	grid-column: 2 / 5;
+}
