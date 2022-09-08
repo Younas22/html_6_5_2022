@@ -1,0 +1,22 @@
+input[type='text']{
+	color: red;
+	background-color: lightblue;
+}
+input[type='password']{
+	background-color: lightblue;
+}
+input[type='button']{
+	background-color: lightpink;
+}
+/* a[href = 'https://web.facebook.com/mhrsadique.sanpal']{ */
+	/* color: red; */
+/* } */
+/* a[href *= 'facebook']{ */
+	/* color: green; */
+/* } */
+/* a[href ^= 'https']{ */
+	/* color: black; */
+/* } */
+a[href $= '.com/']{
+	color: green;
+}
