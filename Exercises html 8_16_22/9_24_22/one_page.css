@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html{
+	font-size:62.5%;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+.name h1{
+	color: #33bbff;
+	font-weight: 500;
+	align-items: center;
+}
+.navbar{
+	width: 100%;
+	color: black;
+	margin: 2rem 2rem;
+}
+.navbar a{
+		text-decoration: none;
+		color: black;
+}
+.navbar-container{
+	display: flex;
+	justify-content: space-around;
+	height: 50px;
+	align-items: center;
+	margin: 0rem 10rem;
+}
+.menu-items{
+	order: 2;
+	display: flex;
+	margin-top: 2.20rem;
+}
+.getstarted a{
+	background:#00aaff;
+	color: #ffffff;
+    border-radius: 5px;
+	padding: 0.80rem 3rem;
+	margin-left: 5rem;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.5rem;
+	margin-bottom: 8px;
+}
+.menu-items li{
+	list-style: none;
+	margin-left: 1.5rem;
+	font-size: 2rem;
+}
+.logo{
+	order: 1;
+}
+.navbar a:hover{
+	color: #4dc3ff;
+}
+.showcase-area{
+	height: 100%;
+	background:url("287510.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.showcase-container{
+	text-align: center;
+}
+.main-title{
+	padding: 150px  450px 0 450px;
+	font-size: 40px;
+	color: #003380;
+}
+p{
+	font-size: 1.8rem;
+	padding: 10px 0 10px 0;
+}
+.getstarteda{
+	background:#00aaff;
+	color: #ffffff;
+    border-radius: 5px;
+	padding: 0.80rem 3rem;
+	margin-left: 5rem;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+.features{
+	padding:10rem 0;
+}
+.md-heading{
+	font-size:2.2rem;
+	color: #003380;
+}
+.box{
+	width:22%;
+	font-size: 1.3rem;
+	float:left;
+	text-align:left;
+	background-color:#263238;
+	color:#fff;
+	background: white;
+	color:black;
+	padding:50px;
+	margin: 50px 20px;
+	justify-content: space-around;
+}
+
+.fa-solid{
+	padding-top: 55px;
+	font-size: 3rem;
+	align-items: right;
+	margin-bottom: 30px;
+	color: #4d94ff;
+}
+.box-wrapper::after{
+	content:'';
+	display:block;
+	clear:both;
+}

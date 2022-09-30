@@ -1,0 +1,12 @@
+input{
+	padding: 5px;
+	border-radius:20px;
+}
+input:focus{
+	padding: 10px;
+	border-radius: 20px;
+	border: blue;
+}
+input:required{
+	color: red;
+}

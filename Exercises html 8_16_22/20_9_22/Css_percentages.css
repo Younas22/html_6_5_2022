@@ -1,0 +1,15 @@
+div{
+	border: 6px solid red;
+	font-size: 20px;
+	width: 50%;
+	margin: auto;
+}
+p{
+	border: 3px solid green;
+	width: 50%;
+	/* font-size: 100%; */
+	background: purple;
+	margin: 10px auto;
+	text-align: center;
+	
+}

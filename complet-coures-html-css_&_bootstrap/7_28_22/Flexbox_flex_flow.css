@@ -1,0 +1,31 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.box-wrapper{
+	    border:10px solid #222;
+		display:flex;
+		height:400px;
+		/* flex-direction:row; */
+		/* flex-wrap:wrap; */
+		/* flex-flow:row wrap; */
+		/* flex-flow:column wrap; */
+		flex-flow:column wrap-reverse;
+}
+.box{
+	border:1px solid #666;
+}
+.box-1{
+	background:#eb4034;
+}
+.box-2{
+	background:#05e7f7;
+}
+.box-3{
+	background:#f705d3;
+}
+.box-4{
+	background:#074ff7;
+}
+.box-5{
+	background:#37f707;
+}

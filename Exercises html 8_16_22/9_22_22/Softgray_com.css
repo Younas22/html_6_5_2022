@@ -1,0 +1,122 @@
+decimal@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	background: #fff;
+	color: #3377ff;
+}
+.head-container{
+	display: flex;
+	justify-content: right;
+	height: 64px;
+	align-items: center;
+}
+.menu-btn{
+	order: 2;
+	display: flex;
+}
+.menu-btn li{
+	list-style: none;
+	margin-left: 1.5rem;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+.contact{
+	margin-left: 10rem;
+
+}
+.logo{
+	order: 1;
+	margin-right:40Rem;
+	font-size: 2rem;
+}
+.header a{
+	color: #3377ff;
+	text-decoration: none;
+	font-weight: 200;
+	transition: color 0.3s ease-in-out;
+}
+.header a:hover{
+	color: #3377ff;
+	border-bottom:2px solid ;
+	padding-bottom: 0.5rem;
+}
+.showcase{
+	height: 70vh;
+	background:url("programming.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.showcase-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	font-size: 1.6rem;
+	color: #4dc3ff;
+}
+.page{
+	text-align:center;
+	padding:40px 300px;
+	margin: 10px;
+}
+.main-title{
+	text-transform: uppercase;
+}
+.features{
+	padding:10rem 0;
+}
+.md-heading{
+	font-size:2.2rem;
+	color: #3377ff;
+}
+.fa-solid{
+	font-size: 3rem;
+}
+.box{
+	width:22.5%;
+	font-size: 1.3rem;
+	float:left;
+	padding:5rem,1rem,5rem,1rem;
+	text-align:center;
+	background-color:#263238;
+	color:#fff;
+	background: white;
+	color:black;
+	margin: 50px 13.8px;
+}
+.box-wrapper::after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.footer{
+	background: #3377ff;
+	color: white;
+	padding: 0.60rem;
+	text-align: center;
+	font-size: 1rem;
+}
+.social-media i{
+	margin: 0.40rem;
+	font-size: 2rem;
+}
+

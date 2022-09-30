@@ -1,0 +1,29 @@
+ /* :not(p){ */
+	/* color: blue; */
+/* } */
+
+/* body :not(p){ */
+	/* color: blue; */
+/* } */
+/* body :not(.fancy){ */
+	/* color: blue; */
+	/* background: #ddd; */
+/* } */
+/* div:empty{ */
+	/* background: #222; */
+	/* border: 2px solid red; */
+	/* height: 100px; */
+	/* width: 100px; */
+/* } */
+/* html{ */
+	/* background: red; */
+	/* color: white; */
+/* } */
+/* :root{ */
+	/* background: #333; */
+	/* color: #eee; */
+/* } */
+body{
+	background: #999;
+	color: #eee;
+}

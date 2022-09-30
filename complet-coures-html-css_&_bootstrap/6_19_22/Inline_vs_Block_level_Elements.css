@@ -1,0 +1,26 @@
+body{
+	font-family:arial, Helvetica, sans-serif;
+	color:#8902f7;
+	
+}
+h1, h2{
+	border:5px solid black;
+	/* width:500px; */
+	display:inline;
+	/* height:100px; */
+	/* margin:100px; */
+	padding-bottom:20px;
+}
+/* h1{
+	padding:100px;
+} */
+a{
+	border:3px solid red;
+	/* margin:100px; */
+	/* width:100px; */
+	/* height:100px; */
+	padding:50px;
+	/* padding:0 50px; */
+	display:block;
+	margin:50px 10px;
+}

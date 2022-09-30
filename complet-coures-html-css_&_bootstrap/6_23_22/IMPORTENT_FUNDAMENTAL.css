@@ -1,0 +1,84 @@
+/* *{
+	margin:0px;
+	padding:0px;
+}
+h1{
+	margin:5px;
+}
+p{
+	margin:10px;
+}
+a{
+	margin:10px;
+}
+li{
+	margin:10px;
+} */
+/* body{
+	color:red;
+}
+a{
+	color:green;
+}
+ul{
+	color:purple;
+} */
+.box1{
+	border:20px solid red;
+	margin-bottom:10px;
+	width:300px;
+	box-sizing:border-box;
+	padding:20px;
+}
+.box2{
+	border:20px solid green;
+	width:300px;
+	padding:20px;
+}
+/* link,visited,hover,active, */
+
+a:link{
+	color:red;
+}
+a:visited{
+	color:yellow;
+}
+a:hover{
+	color:green;
+}
+a:active{
+	color:purple;
+	/* (easy he use krny hen tarteb sy {link.visited.hover.active}agr koi do use krny hen to nechy example dekien) */
+}
+p:hover{
+	color:blue;
+}
+p:active{
+    background:lightpink;
+}
+input:focus{
+	padding:5px;
+	outline:none;
+	border:2px solid green;
+}
+input:required{
+	color:chocolate;
+}
+/* p:first-child{
+	color:deeppink;
+}
+p:first-of-type{
+	color:orange;
+} */
+/* p:last-child{
+	color:tomato;
+}
+p:last-of-type{
+	color:turquoise;
+} */
+p:nth-child(2){
+	color:orange;
+}
+p:nth-child(2n){
+	color:orange;
+}

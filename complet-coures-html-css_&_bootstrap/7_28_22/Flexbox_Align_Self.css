@@ -1,0 +1,35 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.box-wrapper{
+	    border:10px solid #222;
+		height:400px;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+}
+.box{
+	border:1px solid #666;
+	width:400px;
+}
+.box-1{
+	background:#eb4034;
+	align-self:flex-start;
+}
+.box-2{
+	background:#05e7f7;
+	/* align-self:flex-start; */
+	/* align-self:flex-end; */
+	/* align-self:stretch; */
+	align-self:center;
+}
+.box-3{
+	background:#f705d3;
+	align-self:flex-end;
+}
+.box-4{
+	background:#074ff7;
+}
+.box-5{
+	background:#37f707;
+}

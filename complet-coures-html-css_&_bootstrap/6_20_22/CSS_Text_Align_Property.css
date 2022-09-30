@@ -1,0 +1,28 @@
+h1{
+	background:lightblue;
+	/* text-align:center; */
+	width:500px;
+	text-align:center;
+	padding-right:10px;
+	margin:10px 150px;
+	border:6px outset #12f202;
+}
+a{
+	display:inline-block;
+	width:510px;
+	background:lightcoral;
+	text-align:center;
+	text-align:center;
+	margin:10px 150px;
+	border:6px inset red;
+}
+p{
+	border:6px groove #fa00dd;
+	display:inline-block;
+	width:510px;
+	background:#e8b425;
+	text-align:center;
+	text-align:center;
+	margin:10px 150px;
+	
+}

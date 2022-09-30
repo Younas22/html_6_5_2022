@@ -1,0 +1,13 @@
+html{
+	font-size: 62.5%;
+    font-family: 'Dancing Script', cursive;
+}
+.box1{
+	font-size: 2rem;
+}
+.text-content{
+	font-size: 3rem;
+	border: 1rem solid red;
+	margin: 0.5rem;
+	padding: 4.5rem auto;
+}

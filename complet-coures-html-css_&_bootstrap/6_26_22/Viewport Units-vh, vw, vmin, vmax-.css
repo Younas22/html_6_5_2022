@@ -1,0 +1,15 @@
+/* .box{ */
+	 /* height:100vh; */
+	 
+	 /* background:greenyellow; */
+ /* } */
+/* .box{ */
+	 /* height:100vmin; */
+	 
+	 /* background:greenyellow; */
+ /* } */
+ .box{
+	 height:100vmax;
+	 
+	 background:greenyellow;
+ }

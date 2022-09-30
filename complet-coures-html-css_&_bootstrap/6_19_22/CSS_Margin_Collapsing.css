@@ -1,0 +1,14 @@
+body{
+	font-family:arial, Helvetica, sans-serif;
+}
+
+.box1, .box2{
+	border: 2px solid #03c2fc;
+	padding:10px;
+}
+.box1{
+	margin-bottom:40px;
+}
+.box2{
+	margin-top:50px;
+}
