@@ -1,0 +1,149 @@
+
+.bgimg{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./img/head-img/Do More.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 650px;
+}
+.hearderset{
+	padding-top: 250PX;
+	box-sizing: border-box;
+
+}
+.hearderset h2{
+	font-size: 42px;
+}
+.hearderset h1{
+	font-size: 82px;
+	font-weight: bold;
+}
+/* ..................... ourservices......................... */
+.ourservices{
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.rowsetting{
+	margin: 80px 0px !important;
+}
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.fa-cart-arrow-down{
+	margin-top: 25px;
+}
+.fa-desktop{
+	margin-top: 27px;
+}
+.fas{
+	margin-top: 25px;
+}
+.rowsetting p{
+	padding: 10px;
+	color: #6c757d!important;
+}
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+} 
+                     /* ....................portfolio....................... */
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}	
+.card{
+	margin-top: 40px;
+}	
+/* .............................ourteam................................ */
+.ourteam{
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+.ourteam h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.teamsatting{
+	margin-top: 70px !important;
+}
+/* ............................footer...................... */
+.footer{
+	height: 50px;
+}
+.footer h6{
+	line-height: 50px;
+}
+
+/* ............................. Responsive..................................... */
+
+@media(min-width:992px){
+		.hearderset h2{
+	font-size: 22px;
+}
+.hearderset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+}
+@media(min-width: 768px) and (max-width: 991px){
+.hearderset h2{
+	font-size: 42px;
+}
+.hearderset h1{
+	font-size: 62px;
+	font-weight: bold;
+}
+}
+@media(min-width: 575px) and (max-width: 767){
+	.hearderset h2{
+	font-size: 22px;
+}
+.hearderset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+}
+@media(min-width: 480px) and (max-width: 574){
+	.hearderset h2{
+	font-size: 12px;
+}
+.hearderset h1{
+	font-size: 22px;
+	font-weight: bold;
+}
+}
+@media(max-width:479px){
+	.hearderset h2{
+	font-size: 22px;
+}
+.hearderset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+.ourservices{
+	height: 1200px;
+}
+.portfolio{
+	height: 2700px;
+}
+.ourteam{
+	height: 1400px;
+}
+.footer h6{
+	font-weight: normal;
+}
+}
