@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Responsive-Blog-Website.css">
+    <title>Sahil Web</title>
+  </head>
+  <body>
+    <header class="main_header">
+	  <div class="d-flex justify-content-center align-items-center flex-column py-5">
+	    <h1 class="main_heading">SAHIL TECHNICAL</h1>
+		<P class="main_heading__para">Welcome to my <span class="text-capabilities bg-dark text-white py-2 px-3">World Of Blog</span></P>
+	  </div>
+	    <!-- the main images -->
+		<div class="main_header__div d-flex align-items-start justify-content-center pl-5 flex-column shadow">
+		  <p> Sahil Technical</p>
+		  <h2 class="animateWord">
+		  <span>He is</span>
+		  <div>
+		    <ul class="flip">
+              <li>a Programmer</li>
+              <li>a Designer</li>
+              <li>a Freelancer</li>
+              <li>Awesome</li>
+			</ul>
+		  </div>
+		  </h2>
+		  <button text-uppercase>subscribe</button>
+		</div>
+	</header>
+	    <!-- header End -->
+           <!-- tow sided divs -->
+		<div class="container-fluid">
+		  <div class="row">
+		    <!-- to get the left and right side div space -->
+			<div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+			<div class="row gx-5 max-sm-auto">
+			<!-- to get the left side div space -->
+			  <div class="col-lg-8 col-md-11 col-11 mx-auto">
+			    <div class="row gy-5">
+			   <!-- our first div post cod -->
+			      <div class="col-12 card p-4 shadow blog_left__div">
+		            <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+	                   <h1>BEST LAPTOP IN 2022</h1>
+	                     <P class="blog_title"><span class="font-weight-bold"> Title description </span>Oct. 10, 2022</P>
+	                </div>
+				 <figure class="right-side__img md-5">
+				    <img src="img/header/laptop-1.jpg" class="img-fluid shadow">
+				 </figure>
+				 <p><span class="fw-bold">Sahil Technical</span> A laptop computer, sometimes called a notebook computer by manufacturers, is a battery- or AC-powered personal computer 
+				 generally smaller than a briefcase that can easily be transported and conveniently used in temporary spaces such as on 
+				 airplanes, in libraries, temporary offices, and at meetings. Laptop computers generally cost more than desktop computers 
+				 with the same capabilities because they are more difficult to design and manufacture. </p>
+				 <p>A laptop can effectively be turned into a desktop computer with a docking station, a hardware frame that supplies 
+				 connections for peripheral input/output devices such as a printer or larger monitor.</p>
+				<div class="d-flex justify-content-between left_div_btns">
+				    <div>
+				       <button class="left_div__like" id="like_btn"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+				    </div>
+				   <div>
+				      <button class="left_div__reply" onclick="reply('reply1')"><i class="fa-solid fa-reply"></i> Replies <badge class="bg-white text-dark p-2">1</badge></button>
+				   </div>
+				</div>
+			<div class="replies" id="reply1">
+				<div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+				  <div class="reply_img mx-2 align-items-center">
+					 <img src="https://img.icons8.com/color/2x/cartoon-boy.png" />
+				  </div>
+					<div class="reply_text__left">
+					   <p class="blog-title">
+					     <span class="fw-bold"> Sahil, </span> Oct. 12. 2022, 7:32 PM
+					   </p>
+					    <p> Awesome. Bro I LOVE youre content. Great:) </p>
+					</div>
+			   </div>
+			</div>
+				  </div>
+				  			   <!-- our scond div post cod -->
+			      <div class="col-12 card p-4 shadow blog_left__div">
+		            <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+	                   <h1>BEST FULL STACK DEVELOPERS TEAM</h1>
+	                     <P class="blog_title"><span class="font-weight-bold"> Title description </span>Oct. 12, 2022</P>
+	                </div>
+				 <figure class="right-side__img md-5">
+				    <img src="img/header/laptop-2.jpg" class="img-fluid shadow">
+				 </figure>
+				 <p><span class="fw-bold">Sahil Technical</span> When it comes to web development, teamwork is vital. It is especially 
+				 important considering that there are so many elements involved in the process of developing a website. There need to be
+				 teams for researching the target audience, customizing the design of the website, optimizing the SEO, and so forth. </p>
+				 <p>Web developers are required to have excellent time management skills and be able to meet deadlines. Web designers work 
+				 in a fast-paced environment, and they need to schedule their work well to meet the objectives of their clients. Besides, 
+				 having excellent time management skills enables you to stay on top of your schedule and complete your projects on time. 
+				 You also need to have a production schedule and have tools that help you in prioritising and tracking your work to succeed.</p>
+				<div class="d-flex justify-content-between left_div_btns">
+				    <div>
+				       <button class="left_div__like" id="like_btn"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+				    </div>
+				   <div>
+				      <button class="left_div__reply" onclick="reply('reply2')"><i class="fa-solid fa-reply"></i> Replies <badge class="bg-white text-dark p-2">3</badge></button>
+				   </div>
+				</div>
+			<div class="replies" id="reply2">
+				<div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+				  <div class="reply_img mx-2 align-items-center">
+					 <img src="https://img.icons8.com/color/2x/cartoon-boy.png" />
+				  </div>
+					<div class="reply_text__left">
+					   <p class="blog-title">
+					     <span class="fw-bold"> Sahil, </span> Oct. 12. 2022, 7:32 PM
+					   </p>
+					    <p> Awesome. Bro I LOVE youre content.</p>
+					</div>
+				</div>
+				<div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+				  <div class="reply_img mx-2 align-items-center">
+					 <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+				  </div>
+					<div class="reply_text__left">
+					   <p class="blog-title">
+					     <span class="fw-bold"> MS_Sahil, </span> Oct. 13. 2022, 10:45 AM
+					   </p>
+					    <p> I really like the way you teach. Subscribed.</p>
+					</div>
+			   </div>
+			   	<div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+				  <div class="reply_img mx-2 align-items-center">
+					 <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+				  </div>
+					<div class="reply_text__left">
+					   <p class="blog-title">
+					     <span class="fw-bold"> zain:), </span> Oct. 14. 2022, 02:45 PM
+					   </p>
+					    <p> I really like.</p>
+					</div>
+			   </div>
+			</div>
+				  </div>
+				  			   <!-- our thard div post cod -->
+			      <div class="col-12 card p-4 shadow blog_left__div">
+		            <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+	                   <h1>JOB DESIGN & WORK IN OFFICE</h1>
+	                     <P class="blog_title"><span class="font-weight-bold"> Title description </span>Oct. 14, 2022</P>
+	                </div>
+				 <figure class="right-side__img md-5">
+				    <img src="img/header/laptop-3.jpg" class="img-fluid shadow">
+				 </figure>
+				 <p><span class="fw-bold">Sahil Technical</span> While both terms, job design and work(place) design are used interchangeably,
+				 job design has a focus on those administrative changes that are required to improve working conditions, with work design 
+				 having a more pragmatic approach and addressing those adjustments that may be required to workstations, tools, and body </p>
+				 <p>Yes! Even though work design is sometimes constrained by the situation, such as the type of technology or the approach of
+				 the leader, people in the jobs can shape their work designs too. This has been referred to as "job crafting" by some
+				 researchers (related concepts include job-role negotiation, i-deals, proactive work behavior). Job crafting involves 
+				 changing one's tasks, relationships, and ways of thinking about work in order to make one's job more meaningful and
+				 motivating. 
+                 Examples of job crafting include:
+                 Focusing efforts on tasks that are most interesting;
+                 Building new relationships with others at work;
+				 Reducing uninteresting or unnecessary tasks;
+				 Introducing better ways of doing things; and
+				 Obtaining more support from the supervisor.</p>
+				<div class="d-flex justify-content-between left_div_btns">
+				    <div>
+				       <button class="left_div__like" id="like_btn"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+				    </div>
+				   <div>
+				      <button class="left_div__reply" onclick="reply('reply3')"><i class="fa-solid fa-reply"></i> Replies <badge class="bg-white text-dark p-2">5</badge></button>
+				   </div>
+				</div>
+			<div class="replies" id="reply3">
+				<div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+				  <div class="reply_img mx-2 align-items-center">
+					 <img src="https://img.icons8.com/color/2x/cartoon-boy.png" />
+				  </div>
+					<div class="reply_text__left">
+					   <p class="blog-title">
+					     <span class="fw-bold"> Sahil, </span> Oct. 12. 2022, 7:32 PM
+					   </p>
+					    <p> Awesome. Bro I LOVE youre content</p>
+					</div>
+			   </div>
+			  <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+				  <div class="reply_img mx-2 align-items-center">
+					 <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+				  </div>
+					<div class="reply_text__left">
+					   <p class="blog-title">
+					     <span class="fw-bold"> MS_Sahil, </span> Oct. 14. 2022, 11:45 PM
+					   </p>
+					    <p> Nice content.</p>
+					</div>
+					</div>
+				<div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+				  <div class="reply_img mx-2 align-items-center">
+					 <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+				  </div>
+					<div class="reply_text__left">
+					   <p class="blog-title">
+					     <span class="fw-bold"> IMRAN-SHAH, </span> Oct. 16. 2022, 08:45 PM
+					   </p>
+					    <p>Suparb teach.</p>
+					</div>
+			   </div>
+			   	<div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+				  <div class="reply_img mx-2 align-items-center">
+					 <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+				  </div>
+					<div class="reply_text__left">
+					   <p class="blog-title">
+					     <span class="fw-bold"> Mr.BILAL, </span> Oct. 15. 2022, 06:45 PM
+					   </p>
+					    <p> bahot Alla:] </p>
+					</div>
+			   </div>
+
+			   	<div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+				  <div class="reply_img mx-2 align-items-center">
+					 <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+				  </div>
+					<div class="reply_text__left">
+					   <p class="blog-title">
+					     <span class="fw-bold"> M.ibal, </span> Oct. 15. 2022, 11:03 PM
+					   </p>
+					    <p> awesome:;</p>
+					</div>
+			   </div>
+			  </div>
+			</div>
+			</div>
+				  </div>
+							<!-- to get the right side div space -->
+		          <div class="col-lg-3 col-md-7 col-11 justify-content-end m-lg-0 m-auto">
+				    <div class="row gy-5 left_div_blog">
+					 <!-- about me part -->
+					   <div class="col-12 about_me_div shadow">
+					     <p>Janelle Hitz</p>
+					     <p>Amongst the top women web designers she is a talented designer whose brilliance shows in many web pages that 
+						 she has created over the years. </p>
+					   </div>
+					   <!-- papular post -->
+					    <div class="popular_post">
+						   <div class="right_div__title py-4 pl-2">
+						     <h2>Papular Posts</h2>
+						   </div>
+						     <div class="right_sub_div shadow">
+							   <div class="row">
+							     <div class="col-3 papular_post_img1 py-2 pl-2">
+								  
+								 </div>
+								   <div class="col-9">
+								     <h3>Bill Gates</h3>
+									  <p>CEO Microsoft</p>
+								   </div>
+							   </div>
+							   <div class="row ">
+                                  <div class="col-3 popular_post__img2 py-2 pl-2">
+                                  </div>
+                                     <div class="col-9">
+                                        <h3>Mark Zuckerberg </h3>
+                                           <p class="text-capitalize">Programmer</p>
+                                     </div>
+                               </div>
+                               <div class="row ">
+                                   <div class="col-3  popular_post__img3 py-2 pl-2">
+                                   </div>
+                                       <div class="col-9">
+                                           <h3>Jeff Bezos</h3>
+                                              <p class="text-capitalize">Amazon</p>
+                                       </div>
+                               </div>
+                               <div class="row ">
+                                  <div class="col-3  popular_post__img4 py-2 pl-2">
+                                  </div>
+                                  <div class="col-9">
+                                     <h3>Steve Jobs</h3>
+                                        <p class="text-capitalize">Apple</p>
+                                  </div>
+                               </div>
+							 </div>
+						</div>
+						<!-- adverties part -->
+						 <div class="right_div_post">
+						    <div class="right_div_title py-4 pl-2">
+						     <h2>Advertise</h2>
+						   </div>
+						 <div class="right_sub_div">
+						   <div class="adverties_img bg-light shadow">
+						       <p>Ads goes here</p>
+						   </div>
+						 </div>
+						 </div>
+						        <!-- tags -->
+								 <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Tags</h2>
+                                    </div>
+                                    <div class="tags_main right_sub__div">
+                                        <a href="https://www.youtube.com/channel/UCoIMHS_2ORUjvVemRD2p8YA" target="_sahil" class="badge shadow text-capitalize"> html </a>
+                                        <a href="#" class="badge shadow text-capitalize"> css </a>
+                                        <a href="#" class="badge shadow text-capitalize"> js </a>
+                                        <a href="#" class="badge shadow text-capitalize"> react </a>
+                                        <a href="#" class="badge shadow text-capitalize"> vue </a>
+                                        <a href="#" class="badge shadow text-capitalize"> php </a>
+                                        <a href="#" class="badge shadow text-capitalize"> python </a>
+                                        <a href="#" class="badge shadow text-capitalize"> kotlin </a>
+                                        <a href="#" class="badge shadow text-capitalize"> c++ </a>
+                                        <a href="#" class="badge shadow text-capitalize"> java </a>
+                                    </div>
+                                </div>
+								                                <!-- Inspiration -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Inspiration</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <div class="row gx-3">
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="img/second-div4-pics/second1 1 (3).jpg" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="img/second-div4-pics/second1 1 (4).jpg" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+								                <!-- follow me -->
+								    <div class="right_div_post">
+									<div class="right_div__title py-4 pl-2 ">
+                                        <h2>Follow Me</h2>
+                                    </div>
+									 <div class="right_sub__div d-flex justify-content-around">
+									    <a href="https://web.facebook.com/mhrsadique.sanpal" target="_sahil"><i class="fa-brands fa-square-facebook fa-3x"></i></a>
+									    <a href="https://www.instagram.com/m.sadique022/?hl=en" target="_sahil"><i class="fa-brands fa-square-instagram fa-3x"></i></a>
+									    <a href="#"><i class="fa-brands fa-square-github fa-3x"></i></a>
+									    <a href="https://twitter.com/022Sadique" target="_sahil"><i class="fa-brands fa-square-twitter fa-3x"></i></a>
+									    <a href="https://www.youtube.com/channel/UCoIMHS_2ORUjvVemRD2p8YA" target="_sahil"><i class="fa-brands fa-square-youtube fa-3x"></i></a>
+									    <a href="https://www.linkedin.com/in/muhammad-saddique/" target="_sahil"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+									 </div>
+									</div>
+									<!-- subscribe newsletter -->
+						          <div class="right_div_post">
+									<div class="right_div__title py-4 pl-2 ">
+                                        <h2>Subscribe</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Enter your e-mail below and get notified on the latest blog posts.</label>
+                                                <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="name@sahil.com">
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="subs_btn d-block" type="submit">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="text-center py-5 bg-light">design with love By © SAHILTechnical</p>
+        </footer>
+					</div>
+				  </div>			
+			    </div>
+			  </div>
+			</div>
+			</div> 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <!-- reply btns -->
+		<script type="text/javascript">
+		  const reply = (res) => {
+		      var res = document.getElementById(res);
+			  console.log(res);
+			  if(res.className == "replies") {
+			     res.className = "sahil_show";
+			  }else if(res.className == "sahil_show"){
+			  	res.className = "replies";
+		 }
+		 }
+		 <!-- to get the id of like btns -->
+		const like = document.getElementById('like_btn');
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "✓ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+        }
+		<!-- 2nd step to call the function on click and then dubbleclick -->
+        var clickCount = 0;
+        like.addEventListener('click', function() {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function() {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+		</script>
+  </body>
+</html>
